@@ -1,0 +1,20 @@
+ALGORITHM algorithm_name
+VAR
+    phrase: string
+    length.phrase : INTEGER
+BEGIN
+while ( phrase <> .) DO  
+length.phrase +=1
+END_while 
+while (phrase = " ") DO
+nombre mot +=1 
+END_while
+IF ( phrase= "a" or phrase= "y" or phrase= "e") THEN 
+nombre voyelle +=1
+    
+END_IF
+write ("nombre de lettre", length.phrase)
+write ("nombre de mots", nombre mots )
+write ("nombre de voyelles", nombre voyelle)
+
+END
